@@ -1,2 +1,2 @@
-docker start CoralReef
-docker attach CoralReef
+docker start nukkit_coral_reef_1
+docker attach nukkit_coral_reef_1

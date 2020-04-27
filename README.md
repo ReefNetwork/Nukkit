@@ -24,13 +24,7 @@ Links
 
 Running
 -------------
-
-```
-run.cmd
-```
-
 Use [docker-compose](https://docs.docker.com/compose/overview/) to start server on port `19132` and with `./data` volume,
-
 ```
 docker-compose up -d
 ```
@@ -39,12 +33,6 @@ Starting
 -------------
 ```
 start.cmd
-```
-
-Updating
--------------
-```
-update.cmd
 ```
 
 Contributing

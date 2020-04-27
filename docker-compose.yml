@@ -1,6 +1,6 @@
 version: '3'
 services:
-  nukkit:
+  coral_reef:
     build: ./
     ports:
       - "19132:19132"
