@@ -6,6 +6,7 @@ stages:
 build_job_1:
   stage: build
   script:
+    - chmod +x mvnw
     - ./mvnw clean package
   artifacts:
     paths:
