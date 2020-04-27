@@ -1,0 +1,13 @@
+image: maven:latest
+
+stages:
+  - build
+
+build_job_1:
+  stage: build
+  script:
+    - git submodule update --init
+    - mvnw clean package
+  artifacts:
+    paths:
+      - target/*.jar
