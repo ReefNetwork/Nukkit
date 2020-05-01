@@ -1,2 +1,2 @@
-docker start nukkit_coral_reef_1
+docker-compose start
 docker attach nukkit_coral_reef_1
