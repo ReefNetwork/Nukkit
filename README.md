@@ -1,7 +1,7 @@
 ![nukkit](.github/images/banner.png)
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE)
-[![pipeline status](https://gitlab.com/Ree-jp/Nukkit/badges/master/pipeline.svg)](https://gitlab.com/Ree-jp/Nukkit/-/commits/master)
+[![CI](https://github.com/ReefNetwork/Nukkit/workflows/CI/badge.svg)](https://github.com/ReefNetwork/Nukkit/actions?query=workflow%3ACI)
 
 Introduction
 -------------
