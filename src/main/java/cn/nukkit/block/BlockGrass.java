@@ -94,6 +94,9 @@ public class BlockGrass extends BlockDirt {
                 }   
             }
         }
+
+        super.onUpdate(type);
+
         return 0;
     }
 

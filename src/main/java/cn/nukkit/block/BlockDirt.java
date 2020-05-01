@@ -11,7 +11,7 @@ import cn.nukkit.utils.BlockColor;
  * AMAZING COARSE DIRT added by kvetinac97
  * Nukkit Project
  */
-public class BlockDirt extends BlockSolidMeta {
+public class BlockDirt extends BlockSolidMetaFallable {
 
     public BlockDirt() {
         this(0);
