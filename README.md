@@ -1,7 +1,7 @@
 ![nukkit](.github/images/banner.png)
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE)
-[![CI](https://github.com/ReefNetwork/Nukkit/workflows/CI/badge.svg)](https://github.com/ReefNetwork/Nukkit/actions?query=workflow%3ACI)
+[Java CI](https://github.com/ReefNetwork/Nukkit/workflows/Java%20CI/badge.svg)
 
 Introduction
 -------------
