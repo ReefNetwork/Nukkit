@@ -10,6 +10,8 @@ public class FormResponseModal extends FormResponse {
         this.clickedButtonText = clickedButtonText;
     }
 
+    private boolean getButtonBool() { return clickedButtonId == 0; }
+
     public int getClickedButtonId() {
         return clickedButtonId;
     }
