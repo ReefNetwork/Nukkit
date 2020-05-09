@@ -9,6 +9,7 @@ public class FormWindowModal extends FormWindow {
     private String content = "";
     private String button1 = "";
     private String button2 = "";
+    private Runnable task = null;
 
     private FormResponseModal response = null;
 
@@ -17,6 +18,19 @@ public class FormWindowModal extends FormWindow {
         this.content = content;
         this.button1 = trueButtonText;
         this.button2 = falseButtonText;
+    }
+
+    public FormWindowModal(String title, String content, String trueButtonText, String falseButtonText, Runnable task) {
+        this.title = title;
+        this.content = content;
+        this.button1 = trueButtonText;
+        this.button2 = falseButtonText;
+        this.task = task;
+    }
+
+    public void runTask() {
+        if (this.task == null) return;
+        this.task.run();
     }
 
     public String getTitle() {
