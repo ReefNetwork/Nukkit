@@ -109,14 +109,14 @@ public class Level implements ChunkManager, Metadatable {
 
     static {
         randomTickBlocks[Block.GRASS] = true;
-        randomTickBlocks[Block.FARMLAND] = true;
+        randomTickBlocks[Block.FARMLAND] = false;
         randomTickBlocks[Block.MYCELIUM] = true;
         randomTickBlocks[Block.SAPLING] = true;
         randomTickBlocks[Block.LEAVES] = true;
         randomTickBlocks[Block.LEAVES2] = true;
         randomTickBlocks[Block.SNOW_LAYER] = true;
-        randomTickBlocks[Block.ICE] = true;
-        randomTickBlocks[Block.LAVA] = true;
+        randomTickBlocks[Block.ICE] = false;
+        randomTickBlocks[Block.LAVA] = false;
         randomTickBlocks[Block.STILL_LAVA] = true;
         randomTickBlocks[Block.CACTUS] = true;
         randomTickBlocks[Block.BEETROOT_BLOCK] = true;

@@ -21,7 +21,7 @@ public abstract class BlockSolidMetaFallable extends BlockSolidMeta {
     }
 
     public int onUpdate(int type) {
-        if (type == Level.BLOCK_UPDATE_NORMAL) {
+        if (type == Level.BLOCK_UPDATE_NORMAL && level.getFolderName().equals("dig_1")) {
             Block down = this.down();
             if (down.getId() == AIR || down instanceof BlockLiquid || down instanceof BlockFire) {
                 BlockFallEvent event = new BlockFallEvent(this);
