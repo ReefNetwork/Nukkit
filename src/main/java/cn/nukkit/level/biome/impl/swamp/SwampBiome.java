@@ -5,9 +5,7 @@ import cn.nukkit.block.BlockFlower;
 import cn.nukkit.level.biome.type.GrassyBiome;
 import cn.nukkit.level.generator.populator.impl.MushroomPopulator;
 import cn.nukkit.level.generator.populator.impl.PopulatorFlower;
-import cn.nukkit.level.generator.populator.impl.PopulatorLilyPad;
 import cn.nukkit.level.generator.populator.impl.PopulatorSmallMushroom;
-import cn.nukkit.level.generator.populator.impl.tree.SwampTreePopulator;
 
 /**
  * author: MagicDroidX
@@ -17,15 +15,6 @@ public class SwampBiome extends GrassyBiome {
 
     public SwampBiome() {
         super();
-
-        PopulatorLilyPad lilypad = new PopulatorLilyPad();
-        lilypad.setBaseAmount(4);
-        lilypad.setRandomAmount(2);
-        this.addPopulator(lilypad);
-
-        SwampTreePopulator trees = new SwampTreePopulator();
-        trees.setBaseAmount(2);
-        this.addPopulator(trees);
 
         PopulatorFlower flower = new PopulatorFlower();
         flower.setBaseAmount(2);

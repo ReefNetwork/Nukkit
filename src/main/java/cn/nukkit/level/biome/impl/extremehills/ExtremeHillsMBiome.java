@@ -16,11 +16,7 @@ public class ExtremeHillsMBiome extends ExtremeHillsPlusBiome {
     private boolean isGravel = false;
 
     public ExtremeHillsMBiome() {
-        this(true);
-    }
-
-    public ExtremeHillsMBiome(boolean tree) {
-        super(tree);
+        super();
 
         this.setBaseHeight(1f);
         this.setHeightVariation(0.5f);

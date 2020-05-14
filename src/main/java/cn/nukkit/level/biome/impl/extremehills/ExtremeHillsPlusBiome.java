@@ -11,11 +11,7 @@ package cn.nukkit.level.biome.impl.extremehills;
 public class ExtremeHillsPlusBiome extends ExtremeHillsBiome {
 
     public ExtremeHillsPlusBiome() {
-        this(true);
-    }
-
-    public ExtremeHillsPlusBiome(boolean tree) {
-        super(tree);
+        super();
 
         this.setBaseHeight(1f);
         this.setHeightVariation(0.5f);

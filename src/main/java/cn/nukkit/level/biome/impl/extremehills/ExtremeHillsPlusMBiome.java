@@ -11,7 +11,7 @@ package cn.nukkit.level.biome.impl.extremehills;
 public class ExtremeHillsPlusMBiome extends ExtremeHillsMBiome {
 
     public ExtremeHillsPlusMBiome() {
-        super(false);
+        super();
 
         this.setBaseHeight(1f);
         this.setHeightVariation(0.5f);
