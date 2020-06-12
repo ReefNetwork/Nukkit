@@ -2,6 +2,7 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE)
 ![Java CI](https://github.com/ReefNetwork/Nukkit/workflows/Java%20CI/badge.svg)
+[![Travis CO](https://travis-ci.com/ReefNetwork/Nukkit.svg?branch=master)](https://travis-ci.com/github/ReefNetwork/Nukkit)
 
 Introduction
 -------------
