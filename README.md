@@ -42,4 +42,4 @@ Please read the [CONTRIBUTING](.github/CONTRIBUTING.md) guide before submitting 
 
 NukkitMerge
 -------------
-[![Merge](https://img.shields.io/badge/Nukkit-Merger-blueviolet)](https://github.com/ReefNetwork/Nukkit/compare/master...NukkitX:master)
+[![Merge](https://img.shields.io/badge/Original-Merger-blueviolet)](https://github.com/ReefNetwork/Nukkit/compare/master...CloudburstMC:master)
