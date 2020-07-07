@@ -18,7 +18,7 @@ Nukkit is **under improvement** yet, we welcome contributions.
 Links
 --------------------
 
-* __[original](https://github.com/NukkitX/Nukkit)__
+* __[original](https://github.com/CloudburstMC/Nukkit)__
 * __[News](https://nukkitx.com)__
 
 *Thank you for visiting our official sites. Our official websites are provided free of charge, and we do not like to place ads on the home page affecting your reading. If you like this project, please [donate to us](https://nukkitx.com/donate). All the donations will only be used for Nukkit websites and services.*
