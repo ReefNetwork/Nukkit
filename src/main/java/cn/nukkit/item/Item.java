@@ -760,7 +760,7 @@ public class Item implements Cloneable, BlockID, ItemID {
 
     public CompoundTag getNamedTag() {
         if (!this.hasCompoundTag()) {
-            return null;
+            return new CompoundTag();
         }
 
         if (this.cachedNBT == null) {
